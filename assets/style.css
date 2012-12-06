@@ -1,0 +1,187 @@
+html {
+  margin: 0;
+  padding: 0;
+  background-color: #ffffff;
+}
+body {
+  margin: 0;
+  padding: 0;
+}
+a:hover {
+  text-decoration: none;
+}
+.container-fluid {
+  padding-left: 0px;
+  padding-right: 0px;
+}
+.container-fluid.container-fluid-all {
+  max-width: 1000px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 0px;
+  padding-right: 0px;
+  -moz-box-shadow: #000000 0px 0px 10px 0px;
+  -webkit-box-shadow: #000000 0px 0px 10px 0px;
+  -o-box-shadow: #000000 0px 0px 10px 0px;
+  box-shadow: #000000 0px 0px 10px 0px;
+}
+.container-fluid.container-fluid-1 {
+  background: transparent url(light_grey.png) repeat 0px 0px;
+  padding-left: 0px;
+  padding-right: 0px;
+  -moz-box-shadow: 0px 1px 10px 0px #444444;
+  -webkit-box-shadow: 0px 1px 10px 0px #444444;
+  -o-box-shadow: 0px 1px 10px 0px #444444;
+  box-shadow: 0px 1px 10px 0px #444444;
+}
+.container-fluid .row-fluid .span2 .image {
+  border-top-left-radius: 0px;
+  border-top-right-radius: 0px;
+  border-bottom-right-radius: 0px;
+  border-bottom-left-radius: 0px;
+  margin: 0px;
+}
+.container-fluid .row-fluid .span9 .navbar {
+  margin: 0px;
+  height: 80px;
+}
+.container-fluid .row-fluid .span9 .navbar .navbar-inner {
+  padding: 0px;
+  background: transparent;
+  border: none;
+}
+.container-fluid .row-fluid .span9 .navbar .navbar-inner .nav .disabled a {
+  padding: 35px 15px 30px 15px;
+  font-size: 12pt;
+  text-align: center;
+  color: #ffffff;
+  text-shadow: none;
+}
+.container-fluid .row-fluid .span9 .navbar .navbar-inner .nav li a.a-1 {
+  padding: 35px 15px 30px 15px;
+  font-size: 12pt;
+  text-align: center;
+  color: #333333;
+  text-shadow: none;
+}
+.nav li a.a-1:hover {
+  text-decoration: underline;
+}
+.container-fluid .row-fluid .span9 .navbar .navbar-inner .nav li a.a-2 {
+  padding: 35px 15px 30px 15px;
+  font-family:"helvetica neue";
+  font-size: 12pt;
+  text-align: center;
+  color: #333333;
+  text-shadow: none;
+}
+.nav li a.a-2:hover {
+  text-decoration: underline;
+}
+.container-fluid .row-fluid.row-fluid-1 .span6 .heading.heading-1 {
+  color: rgba(51, 51, 51, 0.5);
+}
+.container-fluid .row-fluid.row-fluid-1 .span6 a:hover {
+  text-decoration: underline;
+}
+.container-fluid .row-fluid.row-fluid-1 .span6 .heading.heading-4 {
+  color: #333333;
+}
+.container-fluid .row-fluid .span6.span6-1 {
+  padding: 20px;
+}
+.container-fluid .row-fluid .span6 p.p-1 {
+  font-size: 12pt;
+  color: #555555;
+}
+.container-fluid .row-fluid.row-fluid-1 {
+  padding: 0px;
+}
+.container-fluid .row-fluid.row-fluid-1 .span6.span6-2 {
+  padding: 0px;
+}
+.container-fluid .row-fluid.row-fluid-1 .span6.span6-3 {
+  padding: 20px;
+}
+.container-fluid .row-fluid.row-fluid-1 .span6 p.p-2 {
+  font-size: 12pt;
+  color: #cccccc;
+}
+.container-fluid .row-fluid.row-fluid-1 .span6.span6-4 {
+  padding: 20px;
+}
+.container-fluid .row-fluid.row-fluid-1 .span6.span6-5 {
+  padding: 0px;
+}
+.container-fluid .row-fluid.row-fluid-1 .span6 p.p-3 {
+  font-size: 12pt;
+  color: #555555;
+}
+.container-fluid .row-fluid.row-fluid-1 .span6.span6-6 {
+  padding: 0px;
+}
+.container-fluid .row-fluid.row-fluid-1 .span6.span6-7 {
+  padding: 20px;
+}
+.container-fluid.container-fluid-2 {
+  background: transparent url(dark_grey.png) repeat 0px 0px;
+  -moz-box-shadow: 0px 1px 10px 0px #000000;
+  -webkit-box-shadow: 0px 1px 10px 0px #000000;
+  -o-box-shadow: 0px 1px 10px 0px #000000;
+  box-shadow: 0px 1px 10px 0px #000000;
+}
+.container-fluid.container-fluid-2 .row-fluid .span6.span6-3 .heading.heading-2 {
+  color: #f2f2f2;
+}
+.container-fluid.container-fluid-3 {
+  background: rgba(48, 157, 146, 0.5);
+  -moz-box-shadow: 0px 1px 10px 0px #333333;
+  -webkit-box-shadow: 0px 1px 10px 0px #333333;
+  -o-box-shadow: 0px 1px 10px 0px #333333;
+  box-shadow: 0px 1px 10px 0px #333333;
+}
+.container-fluid .row-fluid.row-fluid-2 .span6 p.p-4 {
+  font-size: 12pt;
+  color: #555555;
+}
+.container-fluid .row-fluid .span6 .image-2 {
+  display: block;
+  text-align: right;
+  margin-left: auto;
+  margin-right: auto;
+}
+.container-fluid .row-fluid.row-fluid-1 .span6 .image-3 {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.container-fluid .row-fluid.row-fluid-1 .span6 .image-4 {
+  display: block;
+  text-align: right;
+  margin-left: auto;
+  margin-right: auto;
+}
+.container-fluid .row-fluid.row-fluid-1 .span6 .image-5 {
+  display: block;
+  text-align: left;
+  margin-left: auto;
+  margin-right: auto;
+}
+.container-fluid .row-fluid .span3 {
+  margin-top: 20px;
+  border: none;
+  color: #333333;
+}
+.container-fluid .row-fluid .span3 .heading.heading-3 {
+  margin: 0px 20px 0px 20px;
+  color: #333333;
+}
+.container-fluid .row-fluid .span3 .heading.heading-3:hover {
+  text-decoration: underline;
+}
+.container-fluid .row-fluid .span3 p.p-5 {
+  margin: 20px;
+  font-size: 12pt;
+  height: 5em;
+  color: #333333;
+}
