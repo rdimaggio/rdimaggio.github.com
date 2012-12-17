@@ -80,7 +80,7 @@ a:hover {
   text-decoration: underline;
 }
 .container-fluid .row-fluid.row-fluid-1 .span6 .heading.heading-1 {
-  color: rgba(51, 51, 51, 0.5);
+  color: rgba(51, 51, 51, 0.75);
 }
 .container-fluid .row-fluid.row-fluid-1 .span6 a:hover {
   text-decoration: underline;
