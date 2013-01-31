@@ -19,29 +19,41 @@
   <div class="container-fluid container-fluid-all">
     <div class="container-fluid container-fluid-1">
       <div class="row-fluid">
-        <span class="span2">
-          <a href="index.html">
-            <img class="image" src="assets/logo.png">
-          </a>
-        </span>
-        <span class="span9">
-          <div class="navbar">
+          <div class="navbar navbar-inverse">
             <div class="navbar-inner">
-              <ul class="nav">
-                <li><a href="index.html" class="a-1">home</a>
-                </li>
-                <li><a href="projects.html" class="a-1">projects</a>
-                </li>
-                <li><a href="research.html" class="a-2">research<br></a>
-                </li>
-                <li><a href="interests.html" class="a-2">interests<br></a>
-                </li>
-                <li class="disabled"><a href="contact.html">contact<br></a>
-                </li>
-              </ul>
+              <div class="container">
+
+                <!-- .btn-navbar is used as the toggle for collapsed navbar content -->
+                <a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+                  <span class="icon-bar"></span>
+                  <span class="icon-bar"></span>
+                  <span class="icon-bar"></span>
+                </a>
+
+                <!-- Be sure to leave the brand out there if you want it shown -->
+                <a class="brand" href="index.html">
+                  <img class="image" src="assets/logo.png">
+                </a>
+
+                <!-- Everything you want hidden at 940px or less, place within here -->
+                <div class="nav-collapse collapse">
+                  <!-- .nav, .navbar-search, .navbar-form, etc -->
+                  <ul class="nav">
+                    <li><a href="index.html" class="a-1">home</a>
+                    </li>
+                    <li><a href="projects.html" class="a-1">projects</a>
+                    </li>
+                    <li><a href="research.html" class="a-1">research<br></a>
+                    </li>
+                    <li><a href="interests.html" class="a-1">interests<br></a>
+                    </li>
+                    <li class="active"><a href="contact.html">contact<br></a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
             </div>
           </div>
-        </span>
       </div>
     </div>
     <div class="container-fluid">
@@ -66,5 +78,7 @@
       </div>
     </div>
   </div>
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.0/jquery.min.js"></script>
+  <script type="text/javascript" src="http://twitter.github.com/bootstrap/assets/js/bootstrap-collapse.js"></script>
   </body>
 </html>

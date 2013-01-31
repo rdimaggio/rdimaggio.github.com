@@ -36,50 +36,39 @@ a:hover {
   margin-left: auto;
   margin-right: auto;
 }
-.container-fluid .row-fluid .span2 .image {
+.container-fluid .row-fluid .image {
   border-top-left-radius: 0px;
   border-top-right-radius: 0px;
   border-bottom-right-radius: 0px;
   border-bottom-left-radius: 0px;
   margin: 0px;
 }
-.container-fluid .row-fluid .span9 .navbar {
+.container-fluid .row-fluid .navbar {
   margin: 0px;
-  height: 80px;
 }
-.container-fluid .row-fluid .span9 .navbar .navbar-inner {
+
+.container-fluid .row-fluid .navbar .brand {
+  padding: 0px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.container-fluid .row-fluid .navbar .navbar-inner {
   padding: 0px;
   background: transparent;
   border: none;
 }
-.container-fluid .row-fluid .span9 .navbar .navbar-inner .nav .disabled a {
-  padding: 35px 15px 30px 15px;
+
+.container-fluid .row-fluid .navbar .navbar-inner .nav a {
   font-size: 12pt;
-  text-align: center;
-  color: #ffffff;
   text-shadow: none;
 }
-.container-fluid .row-fluid .span9 .navbar .navbar-inner .nav li a.a-1 {
-  padding: 35px 15px 30px 15px;
+.container-fluid .row-fluid .navbar .navbar-inner .nav li a.a-1 {
   font-size: 12pt;
-  text-align: center;
   color: #333333;
   text-shadow: none;
 }
-.nav li a.a-1:hover {
-  text-decoration: underline;
-}
-.container-fluid .row-fluid .span9 .navbar .navbar-inner .nav li a.a-2 {
-  padding: 35px 15px 30px 15px;
-  font-family:"helvetica neue";
-  font-size: 12pt;
-  text-align: center;
-  color: #333333;
-  text-shadow: none;
-}
-.nav li a.a-2:hover {
-  text-decoration: underline;
-}
+
 .container-fluid .row-fluid .span6.span6-1 {
   padding: 20px;
 }
